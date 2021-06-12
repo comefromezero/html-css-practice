@@ -11,3 +11,4 @@ gitsdf!
 iiiiiiiii!
 test rebase!
 skdjflajfl!
+test merge!
