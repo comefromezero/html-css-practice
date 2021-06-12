@@ -13,4 +13,6 @@ git sdfsdf!
 gitsdf!
 iiiiiiiii!
 test rebase!
+skdjflajfl!
+>>>>>>> sdkfjsal
 >>>>>>> 6ee1d360ad74114bc65c5d090287590591058316
