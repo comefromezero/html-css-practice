@@ -14,3 +14,4 @@ skdjflajfl!
 git test merge!
 test merge!
 git rebase test!
+git test reset!
