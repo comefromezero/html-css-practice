@@ -1,0 +1,280 @@
+.nav{
+    width: 100%;
+    min-width: 1550px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+}
+.nav_wrap{
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 100;
+}
+.ul_nav{
+    list-style: none;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}
+.nav_item1{
+    width: 200px;
+    left: 150px;
+    position: absolute;
+}
+.nav_item2{
+    width: 80px;
+    font-size: 22px;
+    position: absolute;
+    left: 385px;
+    top:12px;
+}
+.nav_item3{
+    width: 80px;
+    font-size: 22px;
+    position: absolute;
+    left:485px;
+    top:12px;
+}
+main{
+   /* width: 1280px; */
+   margin-top: 53px;
+   margin-left: 250px; 
+   /* background-color: white; */
+   position: relative;
+}
+.main{
+    background-color: white;
+    width: 950px;
+    min-height: 800px;
+    padding: 15px 25px;
+}
+.contents_table{
+    background-color: white;
+    width: 275px;
+    height: 350px;
+    word-break: break-word;
+    hyphens: auto;
+}
+.contents_position{
+    position: fixed;
+    left: 1255px;
+    top:53px;
+}
+footer{
+    margin-left: 250px;
+    margin-top: 3px;
+}
+.footer{
+    background-color: white;
+    width: 1000px;
+    min-height: 200px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+h2{
+    font-size: 23px;
+    font-weight: 600;
+}
+h3{
+    color:#33333f;
+    font-size: 19px;
+    font-weight: 500;
+}
+h4{
+    font-size: 15px;
+    font-weight: 800;
+}
+.explain{
+    font-size:20px;
+    font-weight: 500;
+}
+.para{
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 27px;
+    word-break: break-word;
+    margin-top: 20px;
+
+}
+.first-letter{
+    font-size: 36px;
+    font-weight: 600;
+    float: left;
+    margin-left: 10px;
+}
+.basic_info{
+    text-indent: 0;
+}
+.intro_stone{
+    margin-top: 10px;
+    width: 100%;
+    height: 140px;
+    background-image: url(../img/dot.png);
+    background-repeat: repeat;
+    background-clip: border-box;
+}
+.hr{
+    margin-top: 15px; 
+    border-top: 1px #e6e6e6 solid;
+    width: 100%;
+    height: 2px;
+}
+.pos_wrap{
+    position: relative;
+}
+.dl{
+    float: left;
+    width: 475px;
+    line-height: 26px;
+}
+.dl_dt{
+    padding-left: 15px;
+    width: 160px;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dl_dd{
+    width: 300px;
+}
+.dl_item{
+    font-size: 15px;
+    float: left;
+    word-break: break-word;
+    hyphens: auto;
+}
+div.intro_stone::after{
+    color: red;
+    content: "标记：这个描述性列表的实现特别有意思！利用backgroud-imag+background-repeat实现的行线效果，看起来像下划线，却又不是下划线。";
+    position: absolute;
+    top: 133px;
+    left: 0px;
+}
+.little_wrap{
+    position: relative;
+    left: -20px;
+    margin-top: 50px;
+    width: 100%;
+    height: 30px;
+}
+.little{
+    float: left;
+}
+.little_line{
+    margin-top: 15px; 
+    border-top: 1px #e6e6e6 solid;
+    width: 100%;
+    height: 2px;
+    margin-left: 20px;
+    float: left;
+    width: 820px;
+}
+.blue_col{
+    position: relative;
+    top:5px;
+    left: -5px;
+    float: left;
+    width: 2px;
+    height: 20px;
+    border-left: solid #4f9ce6 12px; 
+}
+.overview_content{
+    margin-top: 10px;
+}
+.name{
+    color: black;
+    font-size: 14px;
+    margin-left: 0.3em;
+}
+.font_weight{
+    font-weight: 900;
+}
+.h3_little{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contents{
+    font-size: 16px;
+    text-align: center;
+    background-color: #e2e2e2;
+    background-clip: border-box;
+    height: 25px;
+}
+.ul_contents{
+    width: 100%;
+    height: 325px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+a.contents_a:hover{
+    background-color: #f5f5fa;
+    background-clip: border-box;
+}
+.contents_h1{
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 8px;
+}
+.contents_h1_a{
+    width: 100%;
+    height: 20px;
+}
+.contents_h2{
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 8px;
+}
+.contents_h2_a{
+    padding-left: 20px;
+    width: 100%;
+    height: 20px;
+}
+.contents_h3{
+    font-size: 14px;
+    font-weight: normal;
+    width: 100%;
+    margin-top: 8px;
+}
+.contents_h3_a{
+    padding-left: 40px;
+    width: 100%;
+    height: 20px;
+}
+a{
+    display: block;
+    width: 100%;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+:target{
+    padding-top: 53px;
+    margin-top:-53px;
+}
+.ul_contents::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+.ul_contents::-webkit-scrollbar-track {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+.ul_contents::-webkit-scrollbar-thumb {
+    background: #e6e6e6; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+.ul_contents::-webkit-scrollbar-thumb:hover {
+    background: #cdcdcd; 
+  }
