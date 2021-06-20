@@ -331,6 +331,9 @@ a {
 .ul_contents::-webkit-scrollbar-thumb:hover {
     background: #cdcdcd;
 }
+.ul_background{
+    background-color: #f5f5fa;
+}
 .review_list{
     width: 950px;
     min-height: 40px;
