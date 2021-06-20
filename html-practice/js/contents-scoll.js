@@ -2,7 +2,7 @@ function set_class(node_object,class_string){
     node_object.className = node_object.className + " " + class_string;
 }
 function unset_class(node_object,class_string){
-    node_object.className = node_object.className.replace(class_string,"");
+    node_object.className = node_object.className.replace(" " + class_string,"");
 }
 
 
@@ -64,7 +64,7 @@ function Set_Current_Class(){
 }
 function contents_class(){
     for (let index = 0; index < contents_view_node.length; index++) {
-        Set_Current_Title(contents_view_node[index],65,index);
+        Set_Current_Title(contents_view_node[index],90,index);
     }
     Set_Current_Class();
 }
